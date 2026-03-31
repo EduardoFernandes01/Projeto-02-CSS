@@ -1,0 +1,141 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+.container-header{
+    display: flex;
+    margin-top: 1.5em;
+    align-content: space-between;
+    gap: 25em;
+    align-items: baseline;
+
+}
+
+.logos{
+    display: inline-flex;
+    align-items: flex-start;
+}
+.cantos{
+    gap: 1.5em;
+}
+input{
+    border: 1px solid rgba(204, 204, 204, 1);
+    padding: 0.1em;
+}
+button{
+    background-color: white;
+    border: 1px solid rgba(204, 204, 204, 1);
+}
+.busca{
+    width: 30em;
+    height: 2em;   
+}
+#usuario{
+    width: 24px;
+    height: 26px;
+    border-radius: 50%;
+}
+
+main{
+    margin: 2em;
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap; 
+}
+
+.video{
+    
+    width: 952px;
+    height: 746px;   
+        
+}
+
+#nome-video{
+    font-weight: 600;
+    margin-top: -0.1em;
+}
+
+#nome_canal{
+    font-weight: 600;
+}
+#inscritos_canal{
+    font-weight: 400;
+}
+#canal{
+    width: 902px;
+    height: 42px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#info_canal{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.texto_canal{
+    display: flex;
+    flex-direction: column;
+}
+
+.texto_canal h3{
+    margin: 0;
+}
+
+.texto_canal span{
+    font-size: 14px;
+    color: gray;
+
+}
+
+.buttons{
+    height: 24px;
+}
+#button_subscribe{
+    background-color: red;
+    width: 159px;
+    height: 40px;
+    border-radius: 2px;
+    color: white;
+}
+
+.sugestoes{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin-left: 2em;
+    width: 450px;
+    height: 938px;
+    
+}
+
+.video_sugest_descricao{
+    display: flex;
+    flex-direction: column;
+    height: 96px;
+    justify-content: space-between;
+}
+.video_sugest_descricao h3{
+    margin: 0;
+    font-size: 14px;
+}
+.video_sugest_descricao span{
+    font-size: 12px;
+    color: gray;
+    
+}
+.video_sugest{
+    display: flex;
+    gap: 0.5em;
+}
+
+
+
