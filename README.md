@@ -1,6 +1,6 @@
 ﻿# Projeto-02-CSS
 
-# 🎬 Clone de Interface do YouTube (HTML + CSS) - Confira no link:
+# 🎬 Clone de Interface do YouTube (HTML + CSS) - Confira no link: https://eduardofernandes01.github.io/Projeto-02-CSS/
 
 ## 📌 Sobre o Projeto
 
